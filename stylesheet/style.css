@@ -1,6 +1,30 @@
+*{
+    margin: 0px;
+}
+
+.borde-negro{
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; 
+}
+
+.img_profile{
+    margin-block-start: 25px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover;
+}
+
+.navegacion{
+    display: flex;
+    margin-block-start: 70px;
+}
+
 h1{
     font-family: Catamaran, serif;
-    color: #272c34;
+    color: white;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 h2{
@@ -10,15 +34,10 @@ h2{
 
 p{
     font-family: Maitree, serif;
-    color: #272c34;
+    color: white;
 }
 
-body{
-    background-color: #fffefd;
-}
-
-
-.section1{
+section{
     background-color: #ec446b;
     margin: 2px 1px 1.5px;
     margin-top: 0.8rem;
@@ -32,17 +51,14 @@ body{
     rgba(0, 0, 0, 0.09) 0px -3px 5px
 }
 
-.section2{
-    background-color: #ec446b;
-    margin: 2px 1px 1.5px;
-    margin-top: 0.8rem;
-    border: 0.2pt dashed #827d7d;
-    padding: 2% 1.2%;
-    box-shadow: 
-    rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-    rgba(0, 0, 0, 0.09) 0px -3px 5px
+header{
+    text-align: center;
+    background-image: url('fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+.header-padre{
+    height: 450px;
+}
