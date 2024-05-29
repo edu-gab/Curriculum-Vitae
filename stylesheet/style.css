@@ -2,8 +2,17 @@
     margin: 0px;
 }
 
+body{
+    background-color: #d1d1e9;
+}
+
 .borde-negro{
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; 
+    color: white;
+}
+
+.header-padre{
+    height: 400px;
 }
 
 .img_profile{
@@ -15,9 +24,101 @@
     object-fit: cover;
 }
 
-.navegacion{
+
+#nav-flex{
     display: flex;
-    margin-block-start: 70px;
+    flex-direction: row;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-block-start: 25px;
+}
+
+#formacion{
+    flex-basis: 10%;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#formacion a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#formacion:hover{
+    background-color: #6246ea;
+}
+
+#experiencia{
+    flex-basis: 10%;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#experiencia a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#experiencia:hover{
+    background-color: #6246ea;
+}
+
+#practicas{
+    flex-basis: 10%;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#practicas a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#practicas:hover{
+    background-color: #6246ea;
+}
+
+#proyectos{
+    flex-basis: 10%;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#proyectos a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#proyectos:hover{
+    background-color: #6246ea;
+}
+
+#referencias{
+    flex-basis: 10%;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#referencias a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#referencias:hover{
+    background-color: #6246ea;
 }
 
 h1{
@@ -29,19 +130,29 @@ h1{
 
 h2{
     font-family: Josefin slab, serif;
-    color: #272c34;
+    color: 2b2c34;
 }
 
 p{
     font-family: Maitree, serif;
-    color: white;
+    color: #2b2c34;
+}
+
+#about-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 50%;
+}
+
+.mitad{
+    width: 45%;
 }
 
 section{
-    background-color: #ec446b;
     margin: 2px 1px 1.5px;
     margin-top: 0.8rem;
-    border: 0.2pt dashed #827d7d;
     padding: 2% 1.2%;
     box-shadow: 
     rgba(0, 0, 0, 0.25) 0px 54px 55px, 
@@ -59,6 +170,3 @@ header{
     background-repeat: no-repeat;
 }
 
-.header-padre{
-    height: 450px;
-}
