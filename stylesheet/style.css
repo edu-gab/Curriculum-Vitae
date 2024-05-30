@@ -200,3 +200,15 @@ header{
     background-repeat: no-repeat;
 }
 
+.video-container{
+    aspect-ratio: 16/9;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    width: 75%;
+    height: 75%;
+}
